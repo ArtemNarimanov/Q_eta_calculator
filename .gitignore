@@ -1,0 +1,11 @@
+# Артефакты сборки PyInstaller — не коммитить
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Портативный exe не попадает в репозиторий
+*.exe
